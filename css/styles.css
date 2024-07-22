@@ -227,6 +227,9 @@ body, html  {
             margin-right: 16px;
 
         }
+                .section-first {
+                            padding-bottom: 72px;
+                }
         .big-title {
             padding-top: 72px;
             margin: 0 auto;
@@ -234,8 +237,11 @@ body, html  {
             text-align: center;
         }
         .button {
-            margin: 72px auto;
+        
             cursor: pointer;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 72px;
         }
         .section-second {
             padding: 96px 16px;
@@ -512,17 +518,11 @@ border-right: 1px solid var(--CORNFLOWER, #E7E9FC);
 
         }
         .button-subsc:hover {
-border-radius: 4px;
-    background: var(--OCEAN, #404BBF);
+        border-radius: 4px;
+        background: var(--OCEAN, #404BBF);
         }
-g
-
-
-
-
         .modal-overlay, .modal-form {
             display: none;
-            
         }
 
 }
