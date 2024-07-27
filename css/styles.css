@@ -406,16 +406,15 @@ body, html  {
         }
         .their-descrip {
             margin: 0;
-
+g
         }
         .app-function {
             display: flex;
-            padding-left: 16px;
-            padding-top: 32px;
             flex-direction: column;
 border-right: 1px solid var(--CORNFLOWER, #E7E9FC);
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     border-left: 1px solid var(--CORNFLOWER, #E7E9FC);
+    padding: 32px 16px;
         }
         .footer-page {
             padding-top:97.5px;
